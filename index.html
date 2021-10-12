@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css"/>
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+        <script src="index.js"></script>
+        <title>Pc's Memory</title>
+    </head>
+
+    <body>
+        <div class="backgroundC">
+            <div class="title1">
+                <h1 class="title">Pc's Memory</h1>
+                <hr class="ti"/>
+            </div>
+            
+            <div class="fieldset">
+                <div class="memoryT">
+                    <h3 class="subtitle is-4" id="memoryT">
+                        Total memory
+                    </h3>
+                    <hr/>
+                    <div class="backgroundBox">
+                      <h4 class="descrip"><span class="descrip" id="memoryTotal">###</span> MB</h4>
+                      <progress class="progress is-success" value="" max="" name="memoryT" id="memoryT"></progress>
+                    </div>
+                </div>
+                <div class="memory">
+                    <h3 class="subtitle is-4" id="memory">
+                        Current memory
+                    </h3>
+                    <hr/>
+                    <div class="backgroundBox">
+                        <h4 class="descrip"><span class="descrip" id="memoryCurrent">###</span> MB</h4>
+                        <progress class="progress is-success" value="" max="" name="memory" id="memory"></progress>
+                    </div>
+                </div>
+                <div class="usage">
+                    <div class="backgroundBoxTitle">
+                        <h3 class="subtitle is-4" id="usage">
+                            Usage
+                        </h3>
+                        <hr/>
+                    </div>
+                    <div class="backgroundBox">
+                       <h4 class="descrip"><span class="descrip" id="usagePercent">###</span>%</h4>
+                       <progress class="progress is-success" value="" max="100" name="usage" id="usage"></progress>
+                    </div>
+                </div>
+                <div class="system">
+                    <h3 class="subtitle is-4" id="system">
+                        System 
+                    </h3>
+                    <hr/>
+                    <h4 class="descrip" id="Os">#####</h4>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

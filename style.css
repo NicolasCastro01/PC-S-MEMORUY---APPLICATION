@@ -1,0 +1,79 @@
+*{
+    user-select: none;
+}
+
+body{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white !important;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    background: rgb(29, 27, 27) !important;
+}
+
+
+.fieldset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 55px;
+    font-size: larger;
+    text-shadow: 1.7px 1.7px 10px rgb(19, 17, 17);
+}
+
+.memoryT, .memory, .usage, .system{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 15px;
+    width: 230px;
+    height: 230px;
+    box-shadow: 2px 2px 7px green;
+}
+
+.title1{
+    margin-top: 100px;
+}
+.title, #memoryT, #memory, #usage, #system{
+    color: white !important;
+    text-shadow: 1.7px 1.7px 10px rgb(43, 39, 39);
+}
+
+.descrip{
+    margin-top: 45px;
+}
+
+.system .descrip{
+    margin-top: 75px !important;
+}
+
+hr{
+    margin-top: -10px !important;
+    margin-right: -16px !important;
+    margin-left: -16px !important;
+}
+
+.backgroundBox{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.backgroundBox .descrip{
+    margin-top: 15px;
+}
+
+.backgroundBox progress{
+    margin-top: 15px;
+}
+
+.ti{
+    margin-left: 110px !important;
+    margin-right: 110px !important;
+}
