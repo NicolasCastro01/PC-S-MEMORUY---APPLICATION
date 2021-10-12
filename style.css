@@ -36,9 +36,22 @@ html{
     height: 230px;
     box-shadow: 2px 2px 7px green;
 }
-
 .title1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 100px;
+}
+.title1 .subtitle{
+    position: relative;
+    top: 55px;
+    right: 580px;
+    left: -575px;
+    color: white !important;
+    font-family: "Roboto", sans-serif;
+}
+#infoApi{
+    color: red;
 }
 .title, #memoryT, #memory, #usage, #system{
     color: white !important;
@@ -77,3 +90,4 @@ hr{
     margin-left: 110px !important;
     margin-right: 110px !important;
 }
+
