@@ -26,6 +26,16 @@ html{
     text-shadow: 1.7px 1.7px 10px rgb(19, 17, 17);
 }
 
+@media screen and (max-width: 900px) {
+    .fieldset{
+        flex-direction: column;
+    }
+    .title1 > .subtitle{
+        position: relative;
+        left: 10000px;
+    }
+}
+
 .memoryT, .memory, .usage, .system{
     display: flex;
     flex-direction: column;
@@ -41,6 +51,8 @@ html{
     align-items: center;
     justify-content: center;
     margin-top: 100px;
+    position:relative;
+    left: 33px;
 }
 .title1 .subtitle{
     position: relative;
@@ -50,6 +62,13 @@ html{
     color: white !important;
     font-family: "Roboto", sans-serif;
 }
+@media screen and (max-width: 900px) {
+    .title1 > .subtitle{
+        position: relative;
+        left: -120px;
+    }
+}
+
 #infoApi{
     color: red;
 }
